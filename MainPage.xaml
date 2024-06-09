@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recipe_Maker_Frontend.MainPage"
+             BackgroundColor="Beige"
+             Title="Recipe Maker">
+    <StackLayout Spacing="10" Margin="5" Padding="5">
+        <Button x:Name="scanButton" 
+                Text="Scan Ingredients" 
+                Clicked="OnScanButtonClicked"
+                Padding="20"
+                HorizontalOptions="Center"
+                BackgroundColor="DarkGray"/>
+        <ListView x:Name="recipeList" 
+                  ItemsSource="{Binding Recipes}"
+                  ItemSelected="OnRecipeSelected">
+
+            <!-- Add favourite button to each item in list -->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout 
+                            Orientation="Horizontal" 
+                            Padding="10" 
+                            Spacing="10" >
+                            <Label
+                                Text="{Binding Name}" VerticalOptions="Center"/>
+                            <Button x:Name="FavButton"
+                                    Text="Favourite" 
+                                    Clicked="OnFavouriteButtonClicked"
+                                    VerticalOptions="End" 
+                                    HorizontalOptions="End"
+                                    Background="Orange" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            
+            
+        <Picker x:Name="dietaryPreferences" 
+                BackgroundColor="DarkOrange"
+                Title="Dietary Preferences">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>None</x:String>
+                    <x:String>Vegetarian</x:String>
+                    <x:String>Vegan</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </StackLayout>
+</ContentPage>

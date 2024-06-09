@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Recipe_Maker_Frontend
+build_property.ProjectDir = C:\Users\igorb\Downloads\Recipe Maker Frontend - Copy (2)\Recipe Maker Frontend - Copy (2)\Recipe Maker Frontend\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/FavRecipesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.FavRecipesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FavRecipesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FavRecipesPage.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/igorb/Downloads/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend - Copy (2)/Recipe Maker Frontend/SelectedRecipePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Recipe_Maker_Frontend.SelectedRecipePage.xaml
+build_metadata.AdditionalFiles.TargetPath = SelectedRecipePage.xaml
+build_metadata.AdditionalFiles.RelativePath = SelectedRecipePage.xaml

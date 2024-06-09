@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recipe_Maker_Frontend.SelectedRecipePage"
+             BackgroundColor="Beige"
+             Title="SelectedRecipePage">
+    <VerticalStackLayout x:Name="RecipeDisplay"
+                        Padding="30" >
+        <Label
+            Text="{Binding Name}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="&#10;&#10;&#10;"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="{Binding Instructions}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="&#10;&#10;&#10;"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="{Binding Complexity}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text=" ~Recipe Complexity"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button 
+            Text="Back"
+            Clicked="OnCloseButtonClicked" 
+            VerticalOptions="End" 
+            HorizontalOptions="End"
+            Background="Orange"
+            />
+    </VerticalStackLayout>
+</ContentPage>
